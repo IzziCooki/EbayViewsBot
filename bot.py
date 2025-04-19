@@ -190,10 +190,10 @@ async def on_message(message):
       print(attachment.url)
 
 
-      CONSUMER_KEY = "BhgwlGKfAK4GTjXkOFZOWR9cs"
-      CONSUMER_SECRET  = "KpJiT1FlGAzmR1FN7gEuE7u5wclMbakA25MtQWXQpHj5hTBKOg"
-      ACCESS_TOKEN = '1105327574069202944-ivdmWaSzIH2705Kw9IrQBGh5Erhy1k'
-      ACCESS_TOKEN_SECRET = 'gvQKF2kz44gvT9oZsb30zg6MvHrDri0lbPNiZPUjaGdlQ'
+      CONSUMER_KEY = ""
+      CONSUMER_SECRET  = ""
+      ACCESS_TOKEN = ''
+      ACCESS_TOKEN_SECRET = ''
 
       auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
       auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
